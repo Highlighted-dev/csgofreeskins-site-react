@@ -1,7 +1,9 @@
+import background from './../images/csgofreeskins.png'
+
 const Home = () => {
     return (
         <div>
-            <h1>Hello there!</h1> 
+            <img src={background}></img>
         </div>
     )
 }
