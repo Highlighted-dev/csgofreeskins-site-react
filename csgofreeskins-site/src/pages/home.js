@@ -5,7 +5,18 @@ const Home = () => {
     return (
         <div className="container">
             <img src={background} alt="csgofreeskins" className="image"></img><br />
-            <h1>Hello there!</h1>
+            <div className="card">
+                <h3>CSGOROLL</h3>
+            </div>
+            <div className="card">
+                <h3>CSGOROLL</h3>
+            </div>
+            <div className="card">
+                <h3>CSGOROLL</h3>
+            </div>
+            <div className="card">
+                <h3>CSGOROLL</h3>
+            </div>
         </div>
     )
 }
