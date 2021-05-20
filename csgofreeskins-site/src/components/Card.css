@@ -5,7 +5,25 @@
     background:white;
     border: solid 1px black;
     border-radius: 25px;
-    margin: 6.6vh;
+    margin-top:6vh;
+    margin-left:10.5vh;
     text-align: center;
     color:black;
+}
+.text{
+    width:96%;
+    height:60%;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    margin: auto;
+    font-size:1.8vh;
+}
+
+.affilate{
+    margin:auto;
+}
+.affilate a{
+    text-decoration: none;
+    color: #4FFF6C;
+    font-size:1.8vh;
 }
