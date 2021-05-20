@@ -1,0 +1,11 @@
+.card{
+    display: inline-block;
+    width:35vh;
+    height:45vh;
+    background:white;
+    border: solid 1px black;
+    border-radius: 25px;
+    margin: 6.6vh;
+    text-align: center;
+    color:black;
+}
