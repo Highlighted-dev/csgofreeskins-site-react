@@ -1,7 +1,7 @@
 .image{
     width: 100%;
-    min-height: 300px;
-    max-height:900px;
+    min-height: 30vh;
+    max-height:90vh;
 }
 .container{
     background-color: #181818;
