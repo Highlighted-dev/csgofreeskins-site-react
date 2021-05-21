@@ -1,15 +1,15 @@
 import './Card.css'
 
-const Card = ({ title, text, link }) => {
+const Card = ({ title, text, link, code }) => {
     
     return (
         <div className="card">
-            <img src={`/images/${title}.png`} alt={title} className="images"></img>
+            <a href={link}><img src={`/images/${title}.png`} alt={title} className="images"></img></a>
             <div className="text">
                 <h4>{text}</h4>
             </div>
             <div className="affilate">
-                <h4><a href={link}>CODE: CSGOFREESKINS2</a></h4>
+                <h4><a href={link}>CODE: {code}</a></h4>
             </div>
         </div>
     )
