@@ -1,0 +1,12 @@
+.footer{
+    position:relative;
+    margin-top:8vh;
+    height:8vh;
+    background-color: #000000;
+    color:grey;
+}
+.footer h5{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
