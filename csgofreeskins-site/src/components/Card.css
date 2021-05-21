@@ -10,20 +10,35 @@
     text-align: center;
     color:black;
 }
+.images{
+    width:35vh;
+    max-height:20vh;
+    overflow:auto;
+}
 .text{
-    width:96%;
-    height:60%;
+    width:34vh;
+    min-height:20vh;
     border-top: solid 2px black;
     border-bottom: solid 2px black;
-    margin: auto;
     font-size:1.8vh;
+    margin: 0vh 0.5vh 0 0.5vh;
+    overflow:auto;
 }
 
 .affilate{
-    margin:auto;
+    width:34vh;
+    height:2.5vh;
+    margin:0 0.5vh 0 0.5vh;
 }
 .affilate a{
     text-decoration: none;
     color: #4FFF6C;
     font-size:1.8vh;
+    margin:auto;
+}
+
+@media only screen and (max-height: 850px) {
+    .affilate{
+        margin:-1.4vh 0.5vh 0 0.5vh;
+    }
 }
