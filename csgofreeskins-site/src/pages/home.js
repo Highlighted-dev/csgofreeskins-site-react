@@ -1,5 +1,6 @@
 import "./Home.css"
 import Card from './../components/Card'
+import Footer from './../components/Footer'
 
 const Home = () => {
     return (
@@ -75,6 +76,7 @@ const Home = () => {
                 link="https://csgoatse.com/#ref=csgofreeskins2"
                 code="csgofreeskins2"
             />
+            <Footer />
         </div>
     )
 }
