@@ -10,3 +10,15 @@
     bottom:0;
     right:0;
 }
+@media only screen and (max-height: 850px)  {
+    .footer h5{
+        position:relative;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:500px)  {
+    .footer h5{
+        position:relative;
+        text-align: center;
+    }
+}
