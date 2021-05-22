@@ -27,7 +27,7 @@
 .affilate{
     width:34vh;
     height:2.5vh;
-    margin:0 0.5vh 0 0.5vh;
+    margin:0vh 0.5vh 0vh 0.5vh;
 }
 .affilate a{
     text-decoration: none;
@@ -36,8 +36,19 @@
     margin:auto;
 }
 
-@media only screen and (max-height: 850px) {
+@media only screen and (max-height: 900px) {
     .affilate{
-        margin:-1.4vh 0.5vh 0 0.5vh;
+        margin:-1.5vh 0vh 0vh -0.5vh;
+    }
+}
+@media only screen and (max-width:435px)  {
+    .card{
+        width:32vh;
+    }
+    .images{
+        width:32vh;
+    }
+    .text{
+        width:31vh;
     }
 }
