@@ -20,13 +20,13 @@ const Navbar = () => {
         },
         {
             title: 'About',
-            path: '/',
+            path: '/about',
             icon: <AiIcons.AiFillQuestionCircle />,
             clName: 'nav-text'
         },
         {
             title: 'Advertise',
-            path: '/',
+            path: '/advertise',
             icon: <FaIcons.FaCartPlus />,
             clName: 'nav-text'
         }
