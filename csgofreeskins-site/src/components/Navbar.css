@@ -43,6 +43,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 8px 0px 8px 1%;
+    margin-left:-5%;
     list-style: none;
     height: 6vh;
   }
