@@ -36,7 +36,7 @@ const Navbar = () => {
         <>
         <div className='navbar'>
           <Link to='#' className='menu-bars'>
-            <FaIcons.FaBars onClick={showSidebar} style={{color:'#4FFF6C'}} />
+            <FaIcons.FaBars onClick={showSidebar} style={{color:'#3848d4'}} />
           </Link>
           <h3>CSGOFREESKINS.NET</h3>
         </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
           <ul className='nav-menu-items' onClick={showSidebar}>
             <li className='navbar-toggle'>
               <Link to='#' className='menu-bars'>
-                <AiIcons.AiOutlineClose style={{color:'#4FFF6C'}} />
+                <AiIcons.AiOutlineClose style={{color:'#3848d4'}} />
               </Link>
             </li>
             {sidebarData.map((item, index) => {
